@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g id="Монтажная-область1" serif:id="Монтажная область1" transform="matrix(0.660451,0,0,0.189575,-45.9489,-12.2581)">
+        <rect x="69.572" y="64.661" width="75.63" height="45.304" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="69.572" y="64.661" width="75.63" height="45.304"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g id="Shape-455-copy-7" serif:id="Shape 455 copy 7" transform="matrix(1.51412,0,0,5.27496,-49.2296,-388.15)">
+                <path d="M87,90L122,90" style="fill:none;stroke:white;stroke-width:3px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

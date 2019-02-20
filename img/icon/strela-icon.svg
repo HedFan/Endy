@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 30 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+    <g transform="matrix(1,0,0,1,-673.909,-433.837)">
+        <g id="Монтажная-область1" serif:id="Монтажная область1" transform="matrix(0.872317,0,0,0.857165,57.011,270.611)">
+            <rect x="-65.356" y="-315.705" width="1174.83" height="1037.37" style="fill:none;"/>
+            <g id="Shape-459" serif:id="Shape 459" transform="matrix(1.14637,0,0,1.16664,-64.8882,-1832.91)">
+                <path d="M675,1745C683.966,1745.02 691.262,1745.02 698,1745" style="fill:none;stroke:rgb(188,153,115);stroke-width:3px;"/>
+            </g>
+            <g id="Shape-460" serif:id="Shape 460" transform="matrix(1.14637,0,0,1.16664,-65.3558,-1834.55)">
+                <path d="M693.096,1739L700,1746.5L693.096,1754" style="fill:none;stroke:rgb(188,153,115);stroke-width:3px;"/>
+            </g>
+        </g>
+        <g id="Монтажная-область2" serif:id="Монтажная область2" transform="matrix(0.713986,0,0,0.805131,197.482,86.4841)">
+            <rect x="667.279" y="431.424" width="41.563" height="25.871" style="fill:none;"/>
+        </g>
+    </g>
+</svg>

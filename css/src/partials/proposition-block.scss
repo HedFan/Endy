@@ -1,0 +1,136 @@
+.proposition-block {
+  background: url("/img/fon.png") no-repeat;
+  width: 100%;
+  background-position: center top;
+  background-size: cover;
+
+  height: auto;
+
+
+  &__container {
+    padding: 130px 0 130px;
+    width: 55%;
+    margin: auto;
+  }
+
+  &__heading {
+    margin-bottom: 55px;
+  }
+
+
+  ol {
+    counter-reset: myCounter;
+    padding-inline-start: 0;
+    margin-bottom: 80px;
+
+    li {
+      list-style: none;
+      margin-bottom: 25px;
+      font-size: 18px;
+      font-weight: 300;
+
+      &:before {
+        content: counter(myCounter);
+        counter-increment: myCounter;
+        color: $black;
+        background: transparent;
+        display: inline-block;
+        text-align: center;
+        margin: 5px 15px 5px 0;
+        padding: -1px;
+        line-height: 35px;
+        width: 30px;
+        height: 30px;
+        border: 3px solid $gray;
+        border-radius: 90px;
+        -moz-border-radius: 90px;
+        -webkit-border-radius: 90px;
+        -khtml-border-radius: 90px;
+        font-weight: 600;
+        font-size: 16px;
+      }
+    }
+  }
+
+  &__link-item {
+    margin-bottom: 20px;
+
+    a {
+      color: $light-broun;
+      font-size: 21px;
+      font-weight: 600;
+      position: relative;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        background: url("/img/icon/strela-icon.svg") no-repeat;
+        background-size: 100%;
+        width: 25px;
+        height: 15px;
+        right: -35px;
+        bottom: 11px;
+      }
+
+      &:hover, &:active, &:focus {
+        text-decoration: underline;
+      }
+
+    }
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .proposition-block__heading {
+    font-size: 33px;
+    margin-bottom: 28px;
+  }
+  .proposition-block ol li {
+    margin-bottom: 15px;
+  }
+  .proposition-block ol {
+    margin-bottom: 50px;
+  }
+  .proposition-block__link-item a {
+    font-size: 17px;
+  }
+  .proposition-block__container {
+    padding: 75px 0 75px;
+    width: 55%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 835px) {
+  .proposition-block__container {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .proposition-block__container {
+    margin: 0;
+  }
+  .proposition-block__link-item a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 524px) {
+  .proposition-block__link-item a {
+    font-size: 13px;
+  }
+}
+@media (max-width: 400px) {
+  .proposition-block__link-item a {
+    font-size: 16px;
+  }
+  .proposition-block ol {
+    padding-left: 0;
+  }
+}

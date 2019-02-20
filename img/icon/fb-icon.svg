@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 15 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Монтажная-область2" serif:id="Монтажная область2" transform="matrix(0.980837,0,0,0.970977,-3.97483,-0.982173)">
+        <rect x="4.052" y="1.012" width="14.748" height="30.359" style="fill:none;"/>
+        <clipPath id="_clip1">
+            <rect x="4.052" y="1.012" width="14.748" height="30.359"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <g id="Монтажная-область1" serif:id="Монтажная область1" transform="matrix(0.222768,0,0,0.430654,-33.6853,-70.3153)">
+                <rect x="151.097" y="161.705" width="90.949" height="79.239" style="fill:none;"/>
+                <g id="Shape-14" serif:id="Shape 14" transform="matrix(4.57668,0,0,2.39146,-3316.58,-10619.4)">
+                    <path d="M762,4519.58L765.001,4519.58L765.001,4518.23L765.001,4516.89L765.001,4516.67C765.001,4515.39 765.034,4513.4 765.967,4512.18C766.951,4510.88 768.301,4510 770.623,4510C774.406,4510 776.001,4510.53 776.001,4510.53L775.251,4514.98C775.251,4514.98 774.001,4514.61 772.834,4514.61C771.668,4514.61 770.623,4515.03 770.623,4516.2L770.623,4519.58L775.407,4519.58L775.073,4523.92L770.623,4523.92L770.623,4538.99L765.001,4538.99L765.001,4523.92L762,4523.92L762,4519.58Z" style="fill:white;fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

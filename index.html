@@ -5,35 +5,37 @@
     <title>Endy-test</title>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="/main/test-endy/css/font/stylesheet.css">
-    <link rel="stylesheet" href="/main/test-endy/css/style.css">
+    <link rel="stylesheet" href="/css/font/stylesheet.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
 
 <div class="header-block">
-    <div class="container">
-        <div class="header-block__menu header-menu">
-            <div class="header-menu__icon js_menu-open">
-                <input type="checkbox"/>
-                <span class="menu-icon-1"></span>
-                <span class="menu-icon-2"></span>
-                <span class="menu-icon-3"></span>
-            </div>
-            <div class="header-menu__name">Франшиза</div>
-            <div class="header-menu__menu-list js_menu-list">
-                <ul>
-                    <li class="header-menu__item"><a href="javascript:void[0]">Рестораны</a></li>
-                    <li class="header-menu__item"><a href="javascript:void[0]">Что в меню</a></li>
-                    <li class="header-menu__item"><a href="javascript:void[0]">Акции и события</a></li>
-                    <li class="header-menu__item"><a href="javascript:void[0]">О нас</a></li>
-                    <li class="header-menu__item"><a href="javascript:void[0]">Франшиза</a></li>
-                    <li class="header-menu__item"><a href="javascript:void[0]">Контакты</a></li>
-                </ul>
-            </div>
+
+    <div class="header-block__menu header-menu js_header-menu-block">
+        <div class="header-menu__icon">
+            <input class="js_menu-open" type="checkbox"/>
+
+            <span class="menu-icon-1"></span>
+            <span class="menu-icon-2"></span>
+            <span class="menu-icon-3"></span>
         </div>
+        <div class="header-menu__name">Франшиза</div>
+        <div class="header-menu__menu-list js_menu-list">
+            <ul>
+                <li class="header-menu__item"><a href="javascript:void[0]">Рестораны</a></li>
+                <li class="header-menu__item"><a href="javascript:void[0]">Что в меню</a></li>
+                <li class="header-menu__item"><a href="javascript:void[0]">Акции и события</a></li>
+                <li class="header-menu__item"><a href="javascript:void[0]">О нас</a></li>
+                <li class="header-menu__item"><a href="javascript:void[0]">Франшиза</a></li>
+                <li class="header-menu__item"><a href="javascript:void[0]">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-block__container">
         <div class="header-block__desc-text header-desc-text">
-            <div class="header-desc-text__heading"><h1>Откройте свой ресторан</h1></div>
+            <div class="header-desc-text__heading heading heading--white"><p>Откройте </p><p>свой </p><p>ресторан</p></div>
             <div class="header-desc-text__body">Диониссийское начало, по определению, вызывает самодостаточный
                 эдипов комплекс. Добавлю, что филогенез продолжает персональный эдипов комплекс, что-то подобное
                 можно встретить в работах Ауэрбаха и Тандлера. Этикет, как бы это ни казалось парадоксальным,
@@ -44,8 +46,8 @@
 </div>
 
 <div class="main-content">
-    <div class="container">
-        <div class="advantages-block">
+    <div class="advantages-block">
+        <div class="advantages-block__container">
             <div class="advantages-block__item advantages-item">
                 <div class="advantages-item__numeric">2014</div>
                 <div class="advantages-item__text">Год основания компании</div>
@@ -62,35 +64,40 @@
                 <div class="advantages-item__numeric">6</div>
                 <div class="advantages-item__text">собственных предприятий</div>
             </div>
-
         </div>
     </div>
 
     <div class="proposition-block">
         <div class="container">
-            <div class="proposition-block__heading">Что мы предлагаем</div>
-            <ol>
-                <li class="proposition-block__item">Передача оптимизированных бизнес-процессов</li>
-                <li class="proposition-block__item">Приезд на открытие стартап-команды франчайзи</li>
-                <li class="proposition-block__item">Программа обучения и тренинги для персонала</li>
-                <li class="proposition-block__item">Оперативная поддержка и консультации</li>
-                <li class="proposition-block__item">Топ-менеджмент на базе флагманского ресторана</li>
-                <li class="proposition-block__item">Маркетинговая концепция с учётом вашей геолокации</li>
-                <li class="proposition-block__item">Внедрение в общую SMM-компанию</li>
-                <li class="proposition-block__item">Актуальные меню, карты бара и макеты полиграфических материалов</li>
-                <li class="proposition-block__item">Обновление фоновой музыки и видеоряда</li>
+            <div class="proposition-block__container">
+                <div class="proposition-block__heading heading heading--black"><p>Что мы </p><p> предлагаем</p></div>
+                <ol>
+                    <li class="proposition-block__item">Передача оптимизированных бизнес-процессов</li>
+                    <li class="proposition-block__item">Приезд на открытие стартап-команды франчайзи</li>
+                    <li class="proposition-block__item">Программа обучения и тренинги для персонала</li>
+                    <li class="proposition-block__item">Оперативная поддержка и консультации</li>
+                    <li class="proposition-block__item">Топ-менеджмент на базе флагманского ресторана</li>
+                    <li class="proposition-block__item">Маркетинговая концепция с учётом вашей геолокации</li>
+                    <li class="proposition-block__item">Внедрение в общую SMM-компанию</li>
+                    <li class="proposition-block__item">Актуальные меню, карты бара и макеты полиграфических
+                        материалов
+                    </li>
+                    <li class="proposition-block__item">Обновление фоновой музыки и видеоряда</li>
 
-            </ol>
+                </ol>
 
-            <div class="proposition-block__link-item"><a href="javascript:void[0]">посмотреть полное описание на
-                beboss.ru</a></div>
-            <div class="proposition-block__link-item"><a href="javascript:void[0]">скачать презентацию (pdf, 1.2 МБ)</a>
+                <div class="proposition-block__link-item"><a href="javascript:void[0]">посмотреть полное описание на
+                    beboss.ru</a></div>
+                <div class="proposition-block__link-item"><a href="javascript:void[0]">скачать презентацию (pdf, 1.2
+                    МБ)</a>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="advantages-block advantages-block--black">
-        <div class="container">
+        <div class="advantages-block__heading heading heading--white"><p>Условия</p><p> франшизы</p></div>
+        <div class="advantages-block__container">
             <div class="advantages-block__item advantages-item">
                 <div class="advantages-item__numeric">500 <span>тыс. руб.</span></div>
                 <div class="advantages-item__text">вступительный взнос</div>
@@ -105,63 +112,99 @@
                 <div class="advantages-item__numeric">8 <span>%</span></div>
                 <div class="advantages-item__text">роялти со 2-го года</div>
             </div>
-
-
         </div>
+
     </div>
 
     <div class="feed-back-block">
-        <div class="feed-back-block__heading">Открыть свой ресторан</div>
-        <form action="">
-            <div class="group-item">
-                <input placeholder="Имя" type="text">
+        <div class="feed-back-block__container">
+            <div class="feed-back-block__heading heading heading--black"><p>Открыть </p><p>свой </p><p>ресторан</p></div>
+            <div class="feed-back-block__form-container">
+                <form method="post" action="" onsubmit="submitForm(event, this)">
+                    <div class="group-item">
+                        <input class="js_text-area-form" name="forName" placeholder="Имя" type="text">
+                        <input class="js_text-area-form" name="forContacts" placeholder="Контактый телефон" type="text">
+                    </div>
+                    <div class="group-item">
+                        <input class="js_text-area-form" name="forMail" placeholder="Электронная почта" type="text">
+                        <input class="js_text-area-form" name="forCity" placeholder="Город открытия" type="text">
+                    </div>
+                    <div class="group-item">
+                        <textarea class="js_text-area-form" name="forMessage" placeholder="Сообщение"></textarea>
+                    </div>
+                    <div class="group-item group-item--between">
+                        <div class="g-recaptcha" data-sitekey="6LfJipIUAAAAAKoVX0OpxjlnNBymSfA6fFIMVKRX"></div>
+                        <div class="btn-group">
+                            <button name="forSubmit" class="btn" value="Submit Me!" type="submit">Отправить заявку</button>
+                            <div class="policy-text">Нажимая кнопку "Отправить заявку", вы даёте согласие на обработку
+                                своих персональных данных
+                                <img class="blabla" src="" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <div class="group-item">
-                <input placeholder="Контактый телефон" type="text">
-            </div>
-            <div class="group-item">
-                <input placeholder="Электронная почта" type="text">
-            </div>
-            <div class="group-item">
-                <input placeholder="Город открытия" type="text">
-            </div>
-            <div class="group-item group-item--full-size">
-                <textarea placeholder="Сообщение" type="text"></textarea>
-            </div>
-            <button type="submit">Отправить заявку</button>
-            <div>Нажимая кнопку "Отправить заявку", вы даёте согласие на обработку своих персональных данных</div>
-        </form>
 
+        </div>
     </div>
 
     <div class="footer-block">
-        <div class="footer-block__contacts footer-contacts">
-            <div class="footer-contacts__phone"><a href="tel:88007777777">8 800 777-77-77</a></div>
-            <div class="footer-contacts__email"><a href="mailto:info@rest.ru">info@rest.ru</a></div>
+        <div class="footer-block__container">
+            <div class="footer-block__item footer-contacts">
+                <div class="footer-item-container">
+                    <div class="footer-contacts__item footer-contacts__item--phone">
+                        <a class="" href="tel:88007777777">8 800 777-77-77</a>
+                    </div>
+                    <div class="footer-contacts__item footer-contacts__item--email">
+                        <a href="mailto:info@rest.ru">info@rest.ru</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-block__item footer-menu-footer">
+                <div class="footer-item-container">
+                    <ul>
+                        <li class="footer-menu-footer__item"><a href="javascript:void[0]">Рестораны</a></li>
+                        <li class="footer-menu-footer__item"><a href="javascript:void[0]">Что в меню</a></li>
+                        <li class="footer-menu-footer__item"><a href="javascript:void[0]">Акции и события</a></li>
+                        <li class="footer-menu-footer__item"><a href="javascript:void[0]">О нас</a></li>
+                        <li class="footer-menu-footer__item"><a href="javascript:void[0]">Франшиза</a></li>
+                        <li class="footer-menu-footer__item"><a href="javascript:void[0]">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-block__item footer-soc-list">
+                <div class="footer-item-container">
+                    <ul>
+                        <li class="footer-soc-list__item footer-soc-list__item--vk"><a
+                                href="javascript:void[0]"></a></li>
+                        <li class="footer-soc-list__item footer-soc-list__item--fb"><a
+                                href="javascript:void[0]"></a></li>
+                        <li class="footer-soc-list__item footer-soc-list__item--ytb"><a
+                                href="javascript:void[0]"></a></li>
+                        <li class="footer-soc-list__item footer-soc-list__item--inst"><a
+                                href="javascript:void[0]"></a></li>
+                        <li class="footer-soc-list__item footer-soc-list__item--topv"><a
+                                href="javascript:void[0]"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-block__item footer-police">
+                <div class="footer-item-container">
+                    <a href="javascript:void[0]">Политика конфиденциальности</a>
+                </div>
+            </div>
         </div>
-        <div class="footer-block__menu-footer footer-menu-footer">
-            <ul>
-                <li class="footer-menu-footer__item"><a href="javascript:void[0]">Рестораны</a></li>
-                <li class="footer-menu-footer__item"><a href="javascript:void[0]">Что в меню</a></li>
-                <li class="footer-menu-footer__item"><a href="javascript:void[0]">Акции и события</a></li>
-                <li class="footer-menu-footer__item"><a href="javascript:void[0]">О нас</a></li>
-                <li class="footer-menu-footer__item"><a href="javascript:void[0]">Франшиза</a></li>
-                <li class="footer-menu-footer__item"><a href="javascript:void[0]">Контакты</a></li>
-            </ul>
-        </div>
-        <div class="footer-block__soc-list footer-soc-list">
-            <ul>
-                <li class="footer-soc-list__vk"><a href="javascript:void[0]"></a></li>
-                <li class="footer-soc-list__fb"><a href="javascript:void[0]"></a></li>
-                <li class="footer-soc-list__ytb"><a href="javascript:void[0]"></a></li>
-                <li class="footer-soc-list__inst"><a href="javascript:void[0]"></a></li>
-                <li class="footer-soc-list__topv"><a href="javascript:void[0]"></a></li>
-            </ul>
-        </div>
-        <div class="footer-block__police"><a href="javascript:void[0]">Политика конфиденциальности</a></div>
     </div>
 </div>
+<div class="modal-window">
+    <div class="modal-window__container">
+        <div class="modal-window__body">
+            Сообщение отправлено
+        </div>
+    </div>
+</div>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
-<script src="/main/test-endy/js/script.js"></script>
+<script src="/js/script.js"></script>
 </body>
 </html>
