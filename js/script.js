@@ -15,25 +15,25 @@ function clickMenu() {
 
 clickMenu();
 
-// window.onscroll = function() {
-//     myFunc()
-// };
-//
-// function myFunc() {
-//     var top = document.querySelector(".js_header-menu-block").getBoundingClientRect().top;
-//     var btm = 60;
-//
-//     if (top <= 0) {
-//         document.querySelector(".js_header-menu-block").classList.add("stick");
-//         console.log('moikka')
-//     }
-//
-//     if (btm > 1) {
-//         document.querySelector(".js_header-menu-block").classList.remove("stick");
-//         console.log('moikka ei')
-//     }
-//
-// }
+window.onscroll = function() {
+    myFunc()
+};
+
+function myFunc() {
+    var top =  window.pageYOffset || document.documentElement.scrollTop;
+    var btn = document.querySelector('.js_header-menu-block');
+
+    if (top > 60)  {
+        btn.classList.add("stick");
+        console.log('moikka')
+    }
+
+    if (btm < 60) {
+      btn.classList.remove("stick");
+        console.log('moikka ei')
+    }
+
+}
 
 
 function submitForm(e, form) {
