@@ -28,7 +28,7 @@ function myFunc() {
         console.log('moikka')
     }
 
-    if (btm < 60) {
+    if (btn < 60) {
       btn.classList.remove("stick");
         console.log('moikka ei')
     }
